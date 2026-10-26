@@ -3,12 +3,19 @@ import { Readability } from "@mozilla/readability";
 import * as cheerio from "cheerio";
 import { JSDOM } from "jsdom";
 import type { NextApiRequest, NextApiResponse } from "next";
+import { DEMO_STOP_MESSAGE, isDemoMode } from "../../utils/demo";
 import { cleanSourceText } from "../../utils/sources";
 
 type Data = {
   sources: Source[];
+  error?: string;
 };
 const searchHandler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
+  // 演示模式下不抓取任何网页
+  if (isDemoMode()) {
+    return res.status(403).json({ sources: [], error: DEMO_STOP_MESSAGE });
+  }
+
   try {
     const { query, model } = req.body as {
       query: string;

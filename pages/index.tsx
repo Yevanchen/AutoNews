@@ -1,11 +1,21 @@
 import { Answer } from "@/components/Answer";
 import { Search } from "@/components/Search";
 import { SearchQuery } from "@/types";
+import { isDemoMode } from "@/utils/demo";
 import { IconBrandGithub, IconBrandTwitter } from "@tabler/icons-react";
+import type { GetStaticProps } from "next";
 import Head from "next/head";
 import { useState } from "react";
 
-export default function Home() {
+interface HomeProps {
+  demoMode: boolean;
+}
+
+export const getStaticProps: GetStaticProps<HomeProps> = async () => ({
+  props: { demoMode: isDemoMode() }
+});
+
+export default function Home({ demoMode }: HomeProps) {
   const [searchQuery, setSearchQuery] = useState<SearchQuery>({ query: "", sourceLinks: [] });
   const [answer, setAnswer] = useState<string>("");
   const [done, setDone] = useState<boolean>(false);
@@ -45,6 +55,7 @@ export default function Home() {
           />
         ) : (
           <Search
+            demoMode={demoMode}
             onSearch={setSearchQuery}
             onAnswerUpdate={(value) => setAnswer((prev) => prev + value)}
             onDone={setDone}

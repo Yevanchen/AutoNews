@@ -1,0 +1,114 @@
+{
+  "Meta开放其Horizon OS给第三方": {
+    "answer": "## Meta 向第三方硬件厂商开放 Horizon OS\n\n2024 年 4 月 22 日，Meta 宣布将驱动 Quest 头显的操作系统开放给第三方硬件厂商，并将其更名为 **Meta Horizon OS** [1]。Road to VR 认为，这标志着 Meta 在 XR 领域的一次巨大战略转变：Quest 的软件不再只运行在 Meta 自家的硬件上 [2]。\n\n### 首批合作伙伴\n- **华硕 ROG**：打造全新的高性能游戏头显 [1][3]\n- **联想**：开发面向生产力、学习和娱乐的混合现实设备 [1][3]\n- **Xbox**：与 Meta 合作推出一款受 Xbox 启发的限量版 Meta Quest [1]\n- 高通骁龙处理器将继续与平台的软硬件深度整合 [1]\n\n### 软件生态同步调整\n- Meta Quest Store 更名为 **Meta Horizon Store** [1]\n- 逐步拆除 App Lab 与正式商店之间的壁垒，让更多应用更容易被用户发现 [1]\n- 手机配套应用更名为 Meta Horizon app [1]\n\n### Meta 为什么这样做\nMeta 将此类比为 PC 和智能手机的发展路径：更多厂商加入，才能把整个市场做大 [1]。对开发者而言，这意味着更大的用户群；对消费者而言，则是更多的硬件选择 [1]。\n\n### 总结\nMeta 希望让 Horizon OS 成为混合现实领域的通用平台：以开放系统吸引多元硬件，用规模换取生态，在与苹果、谷歌的平台竞争中抢占先机。",
+    "sourceLinks": [
+      "https://about.fb.com/news/2024/04/introducing-our-open-mixed-reality-ecosystem/",
+      "https://roadtovr.com/meta-to-open-quests-operating-system-to-third-party-headsets-marking-a-massive-shift-in-strategy/",
+      "https://www.techradar.com/computing/virtual-reality-augmented-reality/meta-quests-software-is-coming-to-new-asus-rog-and-lenovo-headsets"
+    ]
+  },
+  "苹果公司收购了另一家人工智能初创公司": {
+    "answer": "## 苹果再收购一家 AI 初创公司：法国 Datakalab\n\n据法国商业媒体《Challenges》报道，苹果已收购总部位于巴黎的人工智能初创公司 **Datakalab**。交易于 2023 年 12 月完成，直到 2024 年 4 月向欧盟委员会申报后才被外界知晓 [1][2]。苹果和 Datakalab 均未公开确认，交易金额也未披露 [1]。\n\n### Datakalab 是一家什么公司\n- 专注于 **AI 模型压缩与计算机视觉**，主打低功耗、可在设备端高效运行的深度学习算法 [1][2]\n- 强调\"隐私设计\"（Privacy by Design）：图像在本地约 100 毫秒内被处理成匿名统计数据，不保存原始画面 [1]\n- 收购前约有 10 至 20 名员工；两位创始人没有加入苹果，但多名员工已转投苹果 [1]\n\n### 为什么说是\"又一家\"\n- 2024 年 3 月，彭博社报道苹果收购了加拿大滑铁卢的 AI 初创公司 **DarwinAI**，数十名员工并入苹果的 AI 部门 [3]\n- DarwinAI 专注于用 AI 为制造业做视觉质检，其技术带头人、滑铁卢大学教授 Alexander Wong 已加入苹果担任机器学习研究总监 [3]\n\n### 与苹果 AI 战略的关系\n外界普遍认为，Datakalab 的技术可能用于 iOS 18 的 AI 功能，以及 Vision Pro、照片和 Face ID 等产品 [1]。2024 年 6 月，苹果在 WWDC24 上正式发布了以设备端处理为核心、并辅以私有云计算的 Apple Intelligence [4]。\n\n### 总结\n密集收购小型 AI 团队，是苹果补齐 AI 能力的重要方式。Datakalab 擅长的\"小而快、重隐私\"的设备端 AI，与苹果的 AI 路线高度契合。",
+    "sourceLinks": [
+      "https://9to5mac.com/2024/04/22/apple-startup-acquire-ai-compression-and-computer-vision/",
+      "https://www.macrumors.com/2024/04/22/apple-acquires-french-ai-company/",
+      "https://betakit.com/darwinai-reportedly-acquired-by-apple/",
+      "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/"
+    ]
+  },
+  "New rapidly charging sodium battery": {
+    "answer": "## KAIST Develops a Sodium-Ion Battery That Charges in Seconds\n\nIn April 2024, researchers at the Korea Advanced Institute of Science and Technology (KAIST), led by Professor Jeung Ku Kang, unveiled a hybrid sodium-ion battery that can be charged in just a few seconds while storing more energy per kilogram than commercial lithium-ion cells [1][2].\n\n### What's new\n- **Hybrid design:** it pairs a battery-type anode with a supercapacitor-type cathode, combining high energy storage with very fast charging [1][2]\n- **Energy density:** 247 Wh/kg, which the team says exceeds commercial lithium-ion batteries [1]\n- **Power density:** 34,748 W/kg, comparable to supercapacitors [1]\n- The research was published in the journal *Energy Storage Materials* [1]\n\n### Why sodium matters\n- Sodium is nearly 1,000 times more abundant than lithium, making it attractive for low-cost energy storage [1]\n- Potential applications include electric vehicles, mobile electronics, grid-scale storage and aerospace [1]\n\n### What to keep in mind\nThe figures come from the research team's own lab results. Cycle life, cost and mass production still need to be proven before the technology reaches real products.\n\n### Summary\nKAIST's hybrid design suggests sodium-ion batteries can be both energy-dense and extremely fast to charge, a potentially cheaper and more sustainable alternative to lithium-ion, though it is still at the research stage.",
+    "sourceLinks": [
+      "https://interestingengineering.com/science/sodium-battery-charged-in-seconds",
+      "https://gigazine.net/gsc_news/en/20240422-sodium-battery-rapid-charging"
+    ]
+  },
+  "WWDC24 有哪些值得关注的话题": {
+    "answer": "## WWDC24 看点：Apple Intelligence 领衔，各平台全面更新\n\n2024 年 6 月 10 日，苹果在 WWDC24 主题演讲中把生成式 AI 推到舞台中央：全新的 **Apple Intelligence** 与 iOS 18、iPadOS 18、macOS Sequoia、watchOS 11 和 visionOS 2 一同亮相 [1][2]。\n\n### 1. Apple Intelligence：苹果的\"个人智能系统\"\n- 深度集成于 iPhone、iPad 和 Mac，结合个人情境理解和生成语言与图像，并能跨 App 执行操作 [2]\n- 系统级**写作工具**（改写、校对、摘要），以及 **Image Playground** 图像生成和 **Genmoji** 自定义表情 [2]\n- 以设备端处理为基础，更复杂的请求交给**私有云计算**（Private Cloud Compute），主打隐私保护 [2]\n- **集成 ChatGPT**：Siri 和写作工具可调用 ChatGPT，且在发送请求前会征得用户同意 [2]\n\n### 2. 各平台亮点\n- **iOS 18**：更自由的主屏幕自定义、可定制的控制中心，以及\"照片\"App 史上最大规模的重新设计 [1]\n- **iPadOS 18**：终于迎来\"计算器\"App，并带来支持手写公式的 Math Notes [1]\n- **macOS Sequoia**：新增 iPhone 镜像（iPhone Mirroring）等连续互通功能 [1]\n- **watchOS 11** 强化健康与健身洞察；**visionOS 2** 带来新的交互方式和空间照片更新 [1]\n\n### 3. 上线时间与设备门槛\nApple Intelligence 免费提供，于 2024 年秋季随 iOS 18、iPadOS 18 和 macOS Sequoia 以美式英语 beta 版推出，支持 iPhone 15 Pro、iPhone 15 Pro Max，以及搭载 M1 及更新芯片的 iPad 和 Mac [2]。\n\n### 总结\nWWDC24 最大的看点是苹果正式入局生成式 AI：以隐私为卖点、以设备端为核心，并借助 ChatGPT 补足能力。对普通用户来说，关键在于设备门槛和功能落地的节奏。",
+    "sourceLinks": [
+      "https://www.apple.com/newsroom/2024/06/wwdc24-highlights/",
+      "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/"
+    ]
+  },
+  ".SBF被判25年监禁": {
+    "answer": "## SBF 被判 25 年监禁\n\n2024 年 3 月 28 日，加密货币交易所 FTX 创始人山姆·班克曼-弗里德（Sam Bankman-Fried，SBF）在纽约曼哈顿联邦法院被法官刘易斯·卡普兰（Lewis Kaplan）判处 **25 年有期徒刑** [1][2]。\n\n### 案件回顾\n- 2023 年 11 月 2 日，陪审团裁定 SBF 七项欺诈及共谋罪名成立，案件源于 FTX 在 2022 年的崩盘 [2]\n- 检方指控他挪用客户存入 FTX 的资金，并欺骗投资者和债权人；至少 **80 亿美元**客户资金被认为遭到盗用 [1]\n- 路透社报道称，客户、投资者和贷款方的损失合计约 **110 亿美元** [2]\n\n### 量刑考量\n- 检方求刑 40 至 50 年，辩方则请求远低于此的刑期 [1]\n- 卡普兰法官认为 SBF 未来再次作恶的风险\"不容忽视\"，并批评他缺乏悔意 [1]\n- 法官还认定 SBF 在庭审作证时撒谎 [2]\n\n### SBF 的回应\nSBF 在庭上向前同事道歉，但没有承认犯罪，并表示将对定罪和刑期提起上诉 [2]。\n\n### 总结\n从加密行业\"明星\"到被判 25 年监禁，SBF 的结局为 FTX 事件画上了阶段性句号，也向整个行业发出了严厉警示：挪用客户资产的欺诈行为将付出沉重代价。",
+    "sourceLinks": [
+      "https://www.npr.org/2024/03/28/1241210300/sam-bankman-fried-ftx-sentencing-crimes-crypto-mogul-greed",
+      "https://www.businesstoday.in/technology/news/story/bankman-fried-sentenced-to-25-years-for-multi-billion-dollar-ftx-fraud-423402-2024-03-29"
+    ]
+  },
+  "Tesla vs Rivian": {
+    "answer": "## Tesla vs Rivian: The Scale Leader and the Ambitious Challenger\n\nTesla and Rivian both build premium electric vehicles in the U.S., but they are at very different stages: Tesla is a high-volume giant, while Rivian is still scaling up and betting on a cheaper second-generation lineup [1][2][3].\n\n### Scale\n- **Tesla** delivered 1,808,581 vehicles in 2023, including 484,507 in the fourth quarter [1]\n- **Rivian** produced 57,232 vehicles and delivered 50,122 in 2023, more than double 2022 but still a small fraction of Tesla's volume [2]\n\n### Finances\n- Rivian's net loss for 2023 was about $5.4 billion, narrower than $6.75 billion in 2022 [2]\n- It guided to producing about 57,000 vehicles in 2024, flat with 2023 [2]\n\n### Products and pricing\n- Tesla's lineup spans the mass-market Model 3 and Model Y up to the Model S, Model X and Cybertruck\n- Rivian sells the adventure-focused R1T pickup and R1S SUV; on March 7, 2024 it unveiled the midsize **R2**, starting around $45,000 with deliveries expected in the first half of 2026, plus the smaller R3 and R3X [3][4]\n\n### Summary\nTesla wins on scale, price range and charging infrastructure, while Rivian stands out for design and off-road capability. The key question is whether the R2 can give Rivian the volume it needs to approach Tesla-like economics.",
+    "sourceLinks": [
+      "https://www.cnbc.com/2024/01/02/tesla-tsla-q4-2023-vehicle-delivery-and-production-numbers.html",
+      "https://www.sec.gov/Archives/edgar/data/1874178/000187417824000005/ex-991pressrelease4q23earn.htm",
+      "https://www.sec.gov/Archives/edgar/data/1874178/000187417824000016/ex-991r2reveal.htm",
+      "https://spectrumnews1.com/ca/la/transportation/2024/03/07/rivian-unveils-r2-electric-vehicle"
+    ]
+  },
+  "Is the Apple Vision Pro worth buying?": {
+    "answer": "## Is the Apple Vision Pro Worth Buying?\n\nFor most people, not yet. The Vision Pro is a remarkable piece of technology, but at $3,499 it makes the most sense for developers, early adopters and people already deep in the Apple ecosystem [1][2].\n\n### What you get\n- Two micro-OLED displays packing 23 million pixels, controlled with your eyes, hands and voice, powered by Apple silicon [1]\n- Standout experiences for immersive video, 3D media and using it as a giant virtual Mac display [2][3]\n- It launched in the U.S. on February 2, 2024, starting at $3,499 with 256GB of storage [1]\n\n### The trade-offs\n- **Price:** reviewers broadly found the price hard to justify for typical buyers [2]\n- **Comfort and battery:** the headset feels heavy after about 30 minutes, and the external battery lasts roughly two to two and a half hours [3]\n- **Apps:** the software library was still immature at launch, without native Netflix or YouTube apps [2]\n\n### The 2025 refresh\nIn October 2025, Apple updated the headset with the M5 chip, 10% more rendered pixels, a 120Hz refresh rate and a new Dual Knit Band, at the same $3,499 starting price [4].\n\n### Summary\nBuy it if you are a developer, a spatial-computing enthusiast or a frequent traveler who wants a private big screen, and go for the M5 model. Everyone else is better off waiting for a lighter, cheaper version.",
+    "sourceLinks": [
+      "https://www.apple.com/newsroom/2024/01/apple-vision-pro-available-in-the-us-on-february-2/",
+      "https://www.techradar.com/computing/virtual-reality-augmented-reality/apple-vision-pro-review-roundup-heres-what-everyone-thinks-of-the-apple-headset",
+      "https://www.tomsguide.com/computing/smart-glasses/apple-vision-pro-review",
+      "https://9to5mac.com/2025/10/15/apple-vision-pro-gets-the-new-m5-chip-dual-knit-band/"
+    ]
+  },
+  "写一篇关于Tesla recalling all Cybertrucks的新闻报导": {
+    "answer": "## 特斯拉召回全部 3,878 辆 Cybertruck：加速踏板可能卡住\n\n**【Autonews 讯】** 特斯拉向美国国家公路交通安全管理局（NHTSA）提交召回报告，召回 2023 年 11 月 13 日至 2024 年 4 月 4 日期间生产的全部 2024 款 Cybertruck，共计 **3,878 辆**，覆盖了这款电动皮卡截至当时生产的所有车辆 [1][3]。\n\n### 问题出在哪里\n- 加速踏板上的踏板垫可能松脱，并卡进上方的内饰中，使踏板无法回位、车辆持续加速，增加碰撞风险 [1][2]\n- NHTSA 文件显示，原因是一项**未经批准的工艺变更**：组装踏板垫时使用了润滑剂（肥皂），残留的润滑剂降低了踏板垫的固定力 [1]\n\n### 事件时间线\n- 召回公布前，已有买家收到交付延迟的通知，特斯拉此前据报也因同一问题暂停了交付 [2]\n- 2024 年 4 月 12 日，特斯拉在完成评估后决定主动召回 [1]\n- 截至 4 月 15 日，特斯拉表示尚未发现与该问题相关的碰撞、受伤或死亡事故 [1]\n\n### 车主如何处理\n特斯拉将免费为受影响车辆更换或返修加速踏板 [1][2]。车主通知信预计于 6 月寄出，车主也可凭召回服务编号 SB-24-33-003 联系特斯拉 [2]。\n\n### 总结\n这次召回涉及当时已生产的全部 Cybertruck。问题可以通过免费维修解决，但也暴露出新车型在量产爬坡初期的质量管控挑战。",
+    "sourceLinks": [
+      "https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V276-7026.PDF",
+      "https://www.engadget.com/tesla-is-recalling-cybertrucks-because-their-accelerator-pedals-could-get-stuck-123057430.html",
+      "https://spectrumlocalnews.com/tx/south-texas-el-paso/transportation/2024/04/19/nhtsa-recalls-tesla-cybertruck-for-accelerator-pedal-issue"
+    ]
+  },
+  "The Great North American Eclipse": {
+    "answer": "## The Great North American Eclipse of April 8, 2024\n\nOn April 8, 2024, a total solar eclipse known as the Great North American Eclipse crossed Mexico, the United States and Canada, briefly turning day into twilight along a narrow path of totality [1][3].\n\n### The path\n- Totality first reached land on Mexico's Pacific coast at around 11:07 a.m. PDT [1]\n- In the U.S., the path ran through 13 states from Texas to Maine, plus small parts of Michigan and Tennessee [1]\n- It left continental North America on the Atlantic coast of Newfoundland, Canada, at about 5:16 p.m. NDT [1]\n- A partial eclipse was visible in all 48 contiguous U.S. states [1]\n\n### How long it lasted\n- The longest totality, 4 minutes 28 seconds, occurred near Nazas in Durango, Mexico [3]\n- Cities including Dallas, Carbondale, Cleveland and Buffalo saw about four minutes of totality [1]\n- NASA's eclipse map traces the path and timing across the continent [2]\n\n### What's next\nThe next total solar eclipse in the contiguous United States comes in August 2044, and the next coast-to-coast one on August 12, 2045 [3].\n\n### Summary\nThe 2024 eclipse crossed three countries and many major cities, making it a once-in-a-generation sky event for millions of North Americans. The next chance to see totality in the lower 48 states comes in 2044.",
+    "sourceLinks": [
+      "https://science.nasa.gov/eclipses/future-eclipses/eclipse-2024/where-when/",
+      "https://svs.gsfc.nasa.gov/14474/",
+      "https://en.wikipedia.org/wiki/Solar_eclipse_of_April_8,_2024"
+    ]
+  },
+  "The Fed transfers $2 billion in confiscated Bitcoin": {
+    "answer": "## U.S. Government Moves $2 Billion in Seized Silk Road Bitcoin\n\nA quick correction first: the coins did not belong to the Federal Reserve. They were bitcoin seized by U.S. authorities in Silk Road-related cases and held in government-controlled wallets [1][3].\n\n### What happened\n- On April 2, 2024, a wallet tagged as belonging to the U.S. government moved 30,175 BTC, worth roughly $2 billion at the time [1]\n- About 2,000 BTC went to an address that Arkham Intelligence linked to Coinbase, while the rest moved to another government-controlled wallet [1]\n- On-chain analysts read the transfer as a sign the government was preparing to sell [2]\n\n### Where the coins came from\n- The coins trace back to roughly 50,000 BTC that the government seized in late 2022 in connection with the Silk Road dark-web marketplace [1]\n- The government's previous confirmed sale was in March 2023, when it sold 9,861 BTC for $216 million [1]\n\n### What came next\nIn December 2024, the government moved another 19,800 BTC, worth about $1.92 billion, to Coinbase. Coinbase Prime holds a contract with the U.S. Marshals Service to manage seized digital assets [3].\n\n### Summary\nLarge transfers out of government wallets often stoke fears of selling pressure, but a transfer is not the same as a sale. What matters for the market is whether, and how quickly, those coins are actually sold.",
+    "sourceLinks": [
+      "https://www.coindesk.com/markets/2024/04/02/silk-road-bitcoin-worth-2b-moved-by-us-government-on-chain-data",
+      "https://bitcoinmagazine.com/markets/us-government-preparing-to-sell-30000-silk-road-bitcoin-on-chain-data-shows",
+      "https://decrypt.co/294371/us-government-moves-2-billion-silk-road-bitcoin-2"
+    ]
+  },
+  "荷兰麦当劳的创新营销活动。": {
+    "answer": "## 荷兰麦当劳推出会\"飘出薯条香\"的广告牌\n\n2024 年 4 月，荷兰麦当劳在乌得勒支（Utrecht）和莱顿（Leiden）推出了一组**会散发薯条香味的广告牌**：画面上没有任何文字和图片，只有纯红色或纯黄色的底色，路人往往先闻到香味，才注意到广告 [1][2]。\n\n### 创意如何实现\n- 由阿姆斯特丹广告公司 **TBWA\\Neboko** 与制作公司 Raúl&Rigel 联合打造 [1][2][4]\n- 广告牌内设隐藏隔层存放薯条，向路人散发温热薯条的香气 [1]\n- 部分广告牌设在距麦当劳餐厅约 200 米（650 英尺）以内，方便顾客\"循着香味\"找到门店 [1]\n\n### 为什么用气味\n荷兰麦当劳首席营销官 Stijn Mentrop-Huliselan 表示，气味比图像更能唤起清晰而富有情感的记忆；把嗅觉加入广告，是提醒人们想起在麦当劳美好时光的新方式 [1]。\n\n### 营销亮点\n- **多感官营销**：从视觉延伸到嗅觉，直接唤起食欲 [1][3]\n- **极简品牌表达**：不靠文字和图片，只凭标志性的红黄配色和薯条香气就能让人认出品牌 [2]\n- 多家媒体称其为全球首个会散发气味的广告牌 [2][3]，但 MediaPost 指出这只是一次线下实验，而非长期推广 [1]\n\n### 总结\n荷兰麦当劳把品牌最具辨识度的薯条香味变成了广告本身，是感官营销与极简创意结合的典型案例。",
+    "sourceLinks": [
+      "https://www.mediapost.com/publications/article/395250/mcdonalds-tries-out-scented-billboards.html",
+      "https://dutchreview.com/news/new-mcdonalds-billboards-smell-like-fries/",
+      "https://www.iamexpat.nl/lifestyle/lifestyle-news/mcdonalds-reveals-scented-billboards-netherlands",
+      "https://www.media4growth.com/showcase/creative-concepts/mcdonalds-netherlands-and-tbwa-use-aroma-to-tingle-taste-buds-68980"
+    ]
+  },
+  "Billie Eilish opposes AI-made music": {
+    "answer": "## Billie Eilish Joins 200+ Artists Against Predatory AI Music\n\nOn April 2, 2024, Billie Eilish was among more than 200 musicians who signed an open letter organized by the nonprofit Artist Rights Alliance, urging AI developers, tech companies and digital music services to stop using AI \"to infringe upon and devalue the rights of human artists\" [1][2].\n\n### Who signed\n- Billie Eilish, Nicki Minaj, Stevie Wonder, Katy Perry, Miranda Lambert, Smokey Robinson, Peter Frampton and J Balvin [1]\n- Pearl Jam, R.E.M., Jon Bon Jovi, FINNEAS, and the estates of Bob Marley and Frank Sinatra [2]\n\n### What the letter says\n- \"This assault on human creativity must be stopped\" [1]\n- It warns against \"the predatory use of AI to steal professional artists' voices and likenesses\" [1]\n- It objects to training AI models on artists' work without permission, and to AI-generated content that could \"substantially dilute the royalty pools\" paid to artists [1]\n\n### Not anti-AI\nThe letter says that \"when used responsibly, AI has enormous potential to advance human creativity\"; its target is unauthorized and exploitative use, not the technology itself [2].\n\n### Summary\nThe letter puts some of music's biggest names on record: artists are open to AI as a creative tool, but want consent and fair pay before their work and voices are used to train or imitate.",
+    "sourceLinks": [
+      "https://www.nbcnews.com/tech/tech-news/miranda-lambert-billie-eilish-nicki-minaj-submit-letter-ai-developers-rcna146069",
+      "https://www.hypebot.com/billie-eilish-nicki-minaj-pearl-jam-200-artists-call-on-ai-tech-companies-to-respect-artists-rights/"
+    ]
+  },
+  "Drake uses AI Tupac to record songs": {
+    "answer": "## Drake's AI Tupac Verse Draws a Legal Threat From Tupac's Estate\n\nIn April 2024, Drake released \"Taylor Made Freestyle,\" a diss track aimed at Kendrick Lamar that used AI-generated vocals imitating the late Tupac Shakur. Tupac's estate quickly threatened to sue [1][2].\n\n### What happened\n- The track arrived on April 19, 2024, featuring an AI-generated Tupac voice and an AI version of Snoop Dogg [2]\n- Drake did not release the song on streaming services; it circulated through his social media [2]\n\n### The estate's response\n- A cease-and-desist letter from attorney Howard King called the AI Tupac \"a flagrant violation of Tupac's publicity and the estate's legal rights\" [2]\n- The estate demanded the track come down within 24 hours or it would take legal action [2]\n- Days later, \"Taylor Made Freestyle\" was removed from Drake's X and Instagram accounts [3]\n\n### Why it matters\nThe clash became a high-profile test of AI voice cloning: who controls an artist's voice and likeness, especially after death, when anyone can generate a convincing imitation.\n\n### Summary\n\"Taylor Made Freestyle\" showed how easily AI can resurrect an iconic voice, and how quickly rights holders will push back. Expect it to be cited in debates over consent and likeness rights for years.",
+    "sourceLinks": [
+      "https://www.npr.org/2024/04/25/1247095124/canadian-rapper-drake-enlisted-tupac-shakur-in-his-new-beef",
+      "https://www.rollingstone.com/music/music-news/tupac-estate-drake-remove-taylor-made-freestyle-ai-voice-1235009865/",
+      "https://www.nbcnews.com/pop-culture/pop-culture-news/drake-pulls-taylor-made-freestyle-tupac-estate-threatens-action-appare-rcna149592"
+    ]
+  },
+  "美国众议院拟禁止TikTok。": {
+    "answer": "## 美国众议院通过法案：TikTok 要么出售，要么被禁\n\n2024 年 3 月 13 日，美国众议院以 **352 票赞成、65 票反对**通过一项法案，要求字节跳动在约六个月内剥离 TikTok 的美国业务，否则 TikTok 将在美国被禁 [1][2]。\n\n### 法案内容\n- 法案名为《保护美国人免受外国对手控制应用程序侵害法》（Protecting Americans from Foreign Adversary Controlled Applications Act） [1]\n- 若字节跳动未按期出售，苹果、谷歌等应用商店将不得提供 TikTok，网络托管服务也不得支持字节跳动控制的应用 [1]\n- TikTok 在美国拥有约 **1.7 亿**用户 [1]\n\n### 各方立场\n- **支持者**以国家安全为由，担心中国控制的公司掌握美国用户数据；白宫表示拜登总统会签署该法案 [1]\n- **TikTok** CEO 周受资警告，法案一旦生效将导致 TikTok 在美被禁，让创作者和小企业损失数十亿美元，并危及 30 万个美国就业岗位 [1]\n- **中国外交部**表示，美方从未找到 TikTok 威胁美国国家安全的证据，却从未停止打压 TikTok [1]\n\n### 后续进展\n法案的修订版随后于 2024 年 4 月获国会通过并由拜登签署成为法律，剥离期限延长至 270 天；2025 年 1 月 17 日，美国最高法院裁定维持该法 [3]。\n\n### 总结\n众议院的压倒性投票标志着美国对 TikTok 的监管从口头威胁走向立法行动。这场\"出售或禁用\"之争不仅关乎一款应用，更折射出中美在科技与数据安全领域的深层博弈。",
+    "sourceLinks": [
+      "https://kathmandupost.com/world/2024/03/14/us-house-passes-bill-to-force-bytedance-to-divest-tiktok-or-face-ban",
+      "https://www.dailymaverick.co.za/article/2024-03-13-us-house-passes-bill-to-force-bytedance-to-divest-tiktok-or-face-ban/",
+      "https://www.supremecourt.gov/opinions/24pdf/24-656_ca7d.pdf"
+    ]
+  }
+}
