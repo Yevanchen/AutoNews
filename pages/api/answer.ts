@@ -1,10 +1,16 @@
 import { OpenAIStream } from "@/utils/answer";
+import { DEMO_STOP_MESSAGE, isDemoMode } from "@/utils/demo";
 
 export const config = {
   runtime: "edge"
 };
 
 const handler = async (req: Request): Promise<Response> => {
+  // 演示模式下绝不调用 OpenAI
+  if (isDemoMode()) {
+    return new Response(DEMO_STOP_MESSAGE, { status: 403 });
+  }
+
   try {
     const { prompt } = (await req.json()) as {
       prompt: string;

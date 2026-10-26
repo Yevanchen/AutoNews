@@ -1,4 +1,5 @@
 import { SearchQuery, Source } from "@/types";
+import { DEMO_STOP_MESSAGE } from "@/utils/demo";
 import { IconArrowRight, IconSearch } from "@tabler/icons-react";
 import endent from "endent";
 import { FC, KeyboardEvent, useEffect, useRef, useState } from "react";
@@ -9,18 +10,21 @@ import { EmojiGrid, EmojiItem } from "@/components/ui/EmojiGrid";
 
 
 interface SearchProps {
+  demoMode: boolean;
   onSearch: (searchResult: SearchQuery) => void;
   onAnswerUpdate: (answer: string) => void;
   onDone: (done: boolean) => void;
 }
 
-export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) => {
+export const Search: FC<SearchProps> = ({ demoMode, onSearch, onAnswerUpdate, onDone }) => {
   const inputRef = useRef<HTMLInputElement>(null);
   const [selectedText, setSelectedText] = useState<string>("");
 
   const [query, setQuery] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [hasApiKey, setHasApiKey] = useState<boolean>(false);
+  const [stopped, setStopped] = useState<boolean>(false);
+  const canSearch = demoMode || hasApiKey;
   const headlines: EmojiItem[] = [
     { emoji: "🌐", text: "Meta开放其Horizon OS给第三方" },
     { emoji: "🍏", text: "苹果公司收购了另一家人工智能初创公司" },
@@ -42,10 +46,57 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
     setQuery(newQuery);
   };
 
-  const handleSearch = async () => {
+  const handleSearch = async (text: string = query) => {
+    if (demoMode) {
+      await handleDemoSearch(text.trim());
+      return;
+    }
+
     setLoading(true);
     const sources = await fetchSources();
     await handleStream(sources);
+  };
+
+  // 演示模式：只有推荐头条有缓存的回答，其他问题一律提示已停止运营，不调用 OpenAI
+  const handleDemoSearch = async (text: string) => {
+    if (!text) {
+      return;
+    }
+
+    if (!headlines.some((headline) => headline.text === text)) {
+      setStopped(true);
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const response = await fetch("/api/demo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ query: text })
+      });
+
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      }
+
+      const { answer, sourceLinks }: { answer: string; sourceLinks: string[] } = await response.json();
+      setLoading(false);
+      onSearch({ query: text, sourceLinks });
+
+      // 分段输出缓存的回答，模拟实时生成的效果
+      for (let i = 0; i < answer.length; i += 10) {
+        onAnswerUpdate(answer.slice(i, i + 10));
+        await new Promise((resolve) => setTimeout(resolve, 12));
+      }
+
+      onDone(true);
+    } catch (err) {
+      setLoading(false);
+      setStopped(true);
+    }
   };
 
   const fetchSources = async () => {
@@ -68,6 +119,10 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
   const handleEmojiClick = (text: string) => {
     setSelectedText(text);
     updateQuery(text); // 假设 updateQuery 函数可以处理这个更新
+    // 演示模式下点击头条直接展示缓存的回答
+    if (demoMode) {
+      handleSearch(text);
+    }
 };
   const handleStream = async (sources: Source[]) => {
     try {
@@ -148,18 +203,29 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
             type="text"
             placeholder="今天发生了什么"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setStopped(false);
+            }}
             onKeyDown={handleKeyDown}
           />
           <Button
-            disabled={!hasApiKey}
-            onClick={handleSearch}
-            className={`h-10 rounded-lg px-4 ${hasApiKey ? 'bg-black hover:bg-gray-800 text-white' : 'bg-gray-500 text-gray-200'} hover:cursor-pointer`}
+            disabled={!canSearch}
+            onClick={() => handleSearch()}
+            className={`h-10 rounded-lg px-4 ${canSearch ? 'bg-black hover:bg-gray-800 text-white' : 'bg-gray-500 text-gray-200'} hover:cursor-pointer`}
           >
             Search
           </Button>
          
         </div>
+        {demoMode && (
+          <div
+            role="status"
+            className={`w-full max-w-2xl rounded-lg px-4 py-2 text-center text-sm ${stopped ? "border border-amber-400 bg-amber-50 text-amber-900" : "text-zinc-500"}`}
+          >
+            {stopped ? DEMO_STOP_MESSAGE : "演示模式：点击下方推荐头条，查看缓存的回答 · Demo mode: pick a headline below"}
+          </div>
+        )}
         <EmojiGrid items={headlines} onEmojiClick={handleEmojiClick} />
 
           
