@@ -1,6 +1,7 @@
 {
-  "name": "frontend",
+  "name": "autonews",
   "version": "0.1.0",
+  "description": "Autonews: an AI news search assistant, a fork of Clarity AI (mckaywrigley/clarity-ai) customized by Yevanchen.",
   "private": true,
   "scripts": {
     "dev": "next dev",
